@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.reservation.bus.BusApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.44 s <<< FAILURE! - in com.reservation.bus.BusApplicationTests
+contextLoads  Time elapsed: 0.008 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'busSearchService': FactoryBean threw exception on object creation; nested exception is java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+Caused by: java.lang.IllegalArgumentException: JDBC style parameters (?) are not supported for JPA queries.
+

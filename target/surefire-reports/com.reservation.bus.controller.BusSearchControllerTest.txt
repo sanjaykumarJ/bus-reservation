@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.reservation.bus.controller.BusSearchControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 2.385 s <<< FAILURE! - in com.reservation.bus.controller.BusSearchControllerTest
+testToAssertFilteredListAccordingToTheParam  Time elapsed: 0.316 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[[{"id":1,"operatorName":"ppntravels","departureLoc":"Chennai","arrivalLoc":"Bangalore","departureTime":"00:00:00","arrivalTime":"00:00:00","busType":"Volvo","duration":0,"price":990},{"id":1,"operatorName":"ppntravels","departureLoc":"Chennai","arrivalLoc":"Bangalore","departureTime":"00:00:00","arrivalTime":"00:00:00","busType":"Volvo","duration":0,"price":999}]]> but was:<[[]]>
+	at com.reservation.bus.controller.BusSearchControllerTest.testToAssertFilteredListAccordingToTheParam(BusSearchControllerTest.java:45)
+
